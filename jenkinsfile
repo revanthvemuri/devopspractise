@@ -1,5 +1,6 @@
 node{
-stage ('SCM checkout'){
+stage ('scmcheckout')
+{
 	git 'https://github.com/revanthvemuri/devopspractise.git'
 	
   }
