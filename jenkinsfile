@@ -1,5 +1,7 @@
-node{
-stage ('scmcheckout')
+node
+{
+agent : any
+stage ('Scmcheckout')
 {
 	git 'https://github.com/revanthvemuri/devopspractise.git'
 	
